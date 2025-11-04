@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	
+    width: 100%;
+
+    height: 60px;
+	background: linear-gradient(to bottom, #25ECBA , #FFD376);
+	
+
+    display: flex;
+ 
+
+    align-items: center;
+ 	text-align: center;
+
+
+}
+
+.contact{
+	margin-left: auto;
+	padding-right: 20px;
+}
+
+.about {
+
+	padding-left: 20px;
+}
+.products {
+	
+	padding-left: 30px;
+}
+
+.team{
+	
+    padding-left: 30px; 
+}
+.cover {
+	min-height: calc(100vh - 420px);
+	background: linear-gradient(to bottom, #81C6FB , #FC78FC );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.grid {
+	display: grid;
+	gap: 10px;
+	padding: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+	grid-template-rows: 1fr;
+	background: linear-gradient(to bottom, #0478AA,#51C3F4 );
+}
+
+.box {
+	height: 300px;
+	max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	background:linear-gradient(to bottom,#FFFDA4 ,#FDA3AE);
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-size: 50em;
+	border-radius: 4px;
+	margin: 10px;
+	margin-right: 10px;
+}
+
+.o img{
+    width: 50px;
+    height: 50px;
+    
+    background-position: center;
+    justify-content: center; 
+    }
+
+.t img{
+    width: 50px;
+    height: 50px;
+    
+    background-position: center;
+    justify-content: center; 
+    }
+.th img{
+    width: 50px;
+    height: 50px;
+    
+    background-position: center;
+    justify-content: center; 
+    }
+.f img{
+    width: 50px;
+    height: 50px;
+    
+    background-position: center;
+    justify-content: center; 
+    }
+.fi img{
+    width: 50px;
+    height: 50px;
+    
+    background-position: center;
+    justify-content: center; 
+    }
+.s img{
+    width: 50px;
+    height: 50px;
+    
+    background-position: center;
+    justify-content: center; 
+    }
+.se img{
+    width: 50px;
+    height: 50px;
+    
+    background-position: center;
+    justify-content: center; 
+    }
+.e img{
+    width: 50px;
+    height: 50px;
+    
+    background-position: center;
+    justify-content: center; 
+    }
+
+.footer{
+
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-top: 10px;
+	background: linear-gradient(to bottom, #F675A9, #FFFF00 );
+}
